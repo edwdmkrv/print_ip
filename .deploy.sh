@@ -11,4 +11,4 @@ user='edwdmkrv'
 
 package="${name}_${version}_amd64.deb"
 
-curl -T "$package" -u ${user}:"$2" "$baseurl/$user/$project/$name/$version/pool/main/${name::1}/$name/$package;deb_distribution=xenial;deb_component=main;deb_architecture=amd64;publish=1"
+curl -T "$package" -u "${user}:$2" "$baseurl/$user/$project/$name/$version/pool/main/${name::1}/$name/$package;deb_distribution=xenial;deb_component=main;deb_architecture=amd64;publish=1"
