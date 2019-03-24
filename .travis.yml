@@ -16,6 +16,7 @@ script:
 - cmake --build . -- -j "`nproc`"
 - cmake --build . --target test -- -j "`nproc`"
 - cmake --build . --target package -- -j "`nproc`"
+- doxygen
 deploy:
   - provider: script
     skip_cleanup: true
