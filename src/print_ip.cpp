@@ -31,7 +31,7 @@ int main() try {
 	std::cout << proxy{char{-1}} << std::endl;
 	std::cout << proxy{short{}} << std::endl;
 	std::cout << proxy{2130706433} << std::endl;
-	std::cout << proxy{long{8875824491850138409}} << std::endl;
+	std::cout << proxy{8875824491850138409} << std::endl;
 
 	std::cout << proxy{"IP address (std::string)"s} << std::endl;
 	std::cout << proxy{std::vector{'v', 'e', 'c', 't', 'o', 'r'}} << std::endl;
