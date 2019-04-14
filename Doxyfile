@@ -1,0 +1,5 @@
+INPUT = lib src tst
+FILE_PATTERNS = *.cpp *.hpp
+OUTPUT_DIRECTORY = .
+EXTRACT_ALL = YES
+HAVE_DOT = YES
